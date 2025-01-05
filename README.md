@@ -1,5 +1,5 @@
 # intersections
-A library using @cam0studios/vector-library for some useful geometry-related functions
+A library using [@cam0studios/vector-library](https://github.com/cam0studios/vector-library) for some useful geometry-related functions
 
 ## Usage
 To install:
