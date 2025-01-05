@@ -34,7 +34,7 @@ export function lineClosestPoint(l1, l2, p) {
  */
 export function lineCircleCollision(l1, l2, c, r) {
 	if ((l1)["-"](c) < r || (l2)["-"](c) < r) return true;
-	let closest = this.lineClosestPoint(l1, l2, c);
-	if (!this.linePointCollision(l1, l2, closest)) return false;
+	let closest = lineClosestPoint(l1, l2, c);
+	if (!linePointCollision(l1, l2, closest)) return false;
 	return (closest)["-"](c) < r;
 }
