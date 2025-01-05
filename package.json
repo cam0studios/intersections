@@ -1,14 +1,12 @@
 {
-  "name": "intersections",
+  "name": "@cam0studios/intersections",
   "main": "main.js",
   "type": "module",
+  "version": "1.0.1",
   "devDependencies": {
     "@types/bun": "latest"
   },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
-  },
   "dependencies": {
-    "@cam0studios/vector-library": "^1.0.0"
+    "@cam0studios/vector-library": "^1.1.1"
   }
 }
