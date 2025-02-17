@@ -52,7 +52,7 @@ export function raycast(origin, direction, center, radius) {
 	let oc = (origin)["-"](center);
 	let a = direction.dot(direction);
 	let b = 2 * oc.dot(direction);
-	let c = oc.magSq() - radius * radius;
+	let c = oc.magSq - radius * radius;
 	let disc = b * b - 4 * a * c;
 	let solutions = [];
 	if (disc == 0) solutions.push(-b / (2 * a));
